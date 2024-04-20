@@ -280,7 +280,7 @@
 					slidesPerView: 3,
 				},
 				1199: {
-					slidesPerView: 4,
+					slidesPerView: 3,
 				}
 			},
 		});
@@ -364,7 +364,7 @@
 					slidesPerView: 2,
 				},
 				1300: {
-					slidesPerView: 2.5,
+					slidesPerView: 3,
 				},
 			},
 		});
