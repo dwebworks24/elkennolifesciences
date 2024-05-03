@@ -2533,6 +2533,9 @@ p {
 	.breadcrumb-area {
 		padding: 80px 0 !important;
 	}
+	/* .about-us h2{
+		font-size:18px;
+	} */
 }
 
 
@@ -9107,3 +9110,85 @@ ul.list-two li i {
 	background: linear-gradient(117deg, rgba(110,207,133,1) 0%, rgba(125,176,76,1) 42%, rgba(232,217,112,1) 87%, rgba(232,191,4,1) 97%);
 	border-radius: 10px;
 }
+@media (max-width: 767px) {
+	.pinned_over_content {
+	  padding: 0 15px;
+	}
+  }
+  
+  .pinned_over_content h2 {
+	color: #fff;
+	font-size: 52px;
+	font-size: 3.25rem;
+	font-weight: 700;
+	letter-spacing: -.03em;
+	line-height: 1.2;
+  }
+  
+  .parallax_wrapper {
+	position: relative;
+	margin-bottom: 25px;
+  }
+  @media (max-width: 991px) {
+	.parallax_wrapper {
+	  padding-left: 25%;
+	}
+  }
+  .parallax_wrapper .img_over {
+	left: -25%;
+	bottom: 10%;
+	position: absolute;
+	z-index: 99;
+  }
+  @media (max-width: 991px) {
+	.parallax_wrapper .img_over {
+	  left: 0;
+	}
+  }
+  .parallax_wrapper .img_over img {
+	border: 5px solid #fff;
+	width: 50%;
+	height: auto;
+  }
+  @media (max-width: 991px) {
+	.parallax_wrapper.inverted {
+	  padding-left: inherit;
+	  padding-right: 25%;
+	}
+  }
+  
+.parallax_wrapper.inverted .img_over {
+	text-align: right;
+	left: inherit;
+	right: -25%;
+  }
+  @media (max-width: 991px) {
+	.parallax_wrapper.inverted .img_over {
+	  left: inherit;
+	  right: 0;
+	}
+  }
+  .about-us  .imgabout{
+	transition: 0.6s;
+  
+  }
+  
+  .about-us .imgabout:hover{
+	transform: scale(0.8);
+	
+	
+  
+  }
+  .section-value img{
+	transition: 0.6s;
+	border-radius: 8px;
+
+  } 
+  .section-value img:hover{
+	transform: scale(1.1);
+
+	
+	
+  
+  }
+  
