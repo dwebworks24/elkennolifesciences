@@ -320,7 +320,7 @@ a, .btn, button {
 }
 
 p {
-	color: var(--color-paragraph);
+	color:  #2c2a2a;
 	margin: 0 0 15px;
 	text-transform: none;
 	font-weight: 500;
@@ -9103,7 +9103,5 @@ ul.list-two li i {
 
 
 .product-slider .swiper-slide{
-	background: rgb(110,207,133);
-	background: linear-gradient(117deg, rgba(110,207,133,1) 0%, rgba(125,176,76,1) 42%, rgba(232,217,112,1) 87%, rgba(232,191,4,1) 97%);
 	border-radius: 10px;
 }
